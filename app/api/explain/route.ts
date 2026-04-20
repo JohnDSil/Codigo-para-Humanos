@@ -65,3 +65,4 @@ export async function POST(req: NextRequest) {
 export async function GET() {
   return NextResponse.json({ estado: "ok", version: "2.0.0-gemini" });
 }
+
